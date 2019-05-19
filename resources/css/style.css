@@ -1,3 +1,4 @@
+/* site-wide element styling */
 body {
   text-align: center;
   position: center;
@@ -5,13 +6,41 @@ body {
   background-color: black;
 }
 
+/* "header" class styling */
 .header h1 {
   font-weight: normal;
   font-size: 50px;
   color: white;
 }
 
-h4 {
+/* "Coming Soon" download link styling */
+.link {
   color: Aquamarine;
   font-size: 16px;
+}
+
+/* "guide" class styling (h1 only) */
+.guide h1 {
+  font-weight: 300;
+  font-size: 42px;
+  color: white;
+}
+
+/* "guide" class styling (h2 only) */
+.guide h2 {
+  font-size: 21px;
+  color: gray;
+}
+
+/* "coming soon" class styling */
+.coming_soon h1 {
+  font-weight: 300;
+  font-size: 42px;
+  color: white;
+}
+
+/* "footer" class styling */
+.footer {
+  text-align: right;
+  color: gray;
 }
